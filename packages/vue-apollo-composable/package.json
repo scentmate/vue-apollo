@@ -1,5 +1,5 @@
 {
-  "name": "@vue/apollo-composable",
+  "name": "@abersager/apollo-composable",
   "version": "4.0.0-alpha.9-prefetch-fix",
   "description": "Apollo GraphQL for Vue Composition API",
   "repository": {
