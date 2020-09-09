@@ -137,7 +137,7 @@ export function useQuery<
   // SSR
   let firstResolve: Function
   let firstReject: Function
-  if (isServer && options.prefetch !== false) {
+  if (isServer && (options as any).prefetch !== false) {
     onServerPrefetch(() => new Promise((resolve, reject) => {
       firstResolve = resolve
       firstReject = reject
